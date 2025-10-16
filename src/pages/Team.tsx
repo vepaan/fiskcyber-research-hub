@@ -1,17 +1,13 @@
 import Navigation from "@/components/Navigation";
-import Hero from "@/components/Hero";
-import ResearchSection from "@/components/ResearchSection";
 import TeamSection from "@/components/TeamSection";
 
-const Index = () => {
+const Team = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      <Hero />
-      <ResearchSection />
       <TeamSection />
     </div>
   );
 };
 
-export default Index;
+export default Team;
